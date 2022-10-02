@@ -1,0 +1,18 @@
+#include<bits/stdc++.h>
+using namespace std;
+int main()
+{
+  int i=1,first,end, sum=0;
+  cout<<"enter the first & last number" <<endl;
+  cin>>first>>end;
+  for(i=first;i<=end;i++)
+  {
+      sum = sum+i;
+  }
+  cout<<"sum is :" <<" " << sum <<endl;
+  return 0;
+}
+
+enter the first & last number
+20 30
+sum is : 275
