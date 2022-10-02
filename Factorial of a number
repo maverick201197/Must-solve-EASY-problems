@@ -1,0 +1,21 @@
+#include<bits/stdc++.h>
+using namespace std;
+int main()
+{
+  int i =1, fact = 1;
+  int n;
+  cout<<"enter a number" <<endl;
+  cin>>n;
+  for(i=1;i<=n;i++)
+  {
+      fact = fact * i;
+      
+  }
+  
+  cout<<"factorial of a number is :" <<" " << fact <<endl;
+  return 0;
+}
+
+enter a number
+5
+factorial of a number is : 120
