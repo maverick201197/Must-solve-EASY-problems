@@ -1,0 +1,14 @@
+#include<bits/stdc++.h>
+using namespace std;
+int main()
+{
+    int base, exponent;
+    cout<<"enter base and exponent of a number" <<endl;
+    cin>>base>>exponent;
+    cout<<"Power of a number is :" <<" " << pow(base,exponent) <<endl;
+    return 0;
+}
+
+enter base and exponent of a number
+2 3
+Power of a number is : 8
