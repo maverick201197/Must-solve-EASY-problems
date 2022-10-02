@@ -1,0 +1,22 @@
+#include<bits/stdc++.h>
+using namespace std;
+int main()
+{
+  int n, temp, rem, rev = 0;
+  cout<<"enter a number" <<endl;
+  cin>>n;
+  temp = n;
+  while(temp!=0)
+  {
+      rem = temp % 10;
+      rev = rev * 10 + rem;
+      temp = temp / 10;
+  }
+  
+  cout<<"reverse of a number is : " << " " <<rev<<endl;
+  return 0;
+}
+
+enter a number
+12345
+reverse of a number is :  54321
