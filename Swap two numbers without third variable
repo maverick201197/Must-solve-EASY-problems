@@ -1,0 +1,20 @@
+#include<bits/stdc++.h>
+using namespace std;
+int main()
+{
+   int a,b;
+   cout<<"enter two number" <<endl;
+   cin>>a>>b;
+   cout<<"Number before swap is :" <<" " << a <<" " << "and" <<" " << b <<endl;
+   a=a+b;
+   b=a-b;
+   a=a-b;
+   cout<<"Number after swap is :" <<" "<< a <<" " << "and" << " " << b << endl;
+   return 0;
+}
+
+
+enter two number
+10 20
+Number before swap is : 10 and 20
+Number after swap is : 20 and 10
