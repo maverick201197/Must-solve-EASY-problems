@@ -1,0 +1,24 @@
+#include<bits/stdc++.h>
+using namespace std;
+int main()
+{
+    int a,b,c,d,sum;
+    int numerator = 0, denominator = 0;
+    
+    cout<<"enter num and denom of first fraction" <<endl;
+    cin>>a>>b;
+    cout<<"enter num and denom of second fraction" <<endl;
+    cin>>c>>d;
+    numerator = (a * d) + (c * d);
+    denominator = b * d;
+    sum = numerator / denominator;
+    cout<<"Sum of two fractions is : " <<" " << sum << endl;
+    return 0;
+    
+}
+
+enter num and denom of first fraction
+1 2
+enter num and denom of second fraction
+2 4
+Sum of two fractions is :  1
