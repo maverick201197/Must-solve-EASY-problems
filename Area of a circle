@@ -1,0 +1,16 @@
+#include<bits/stdc++.h>
+using namespace std;
+int main()
+{
+   int radius;
+   cout<<"enter a radius" <<endl;
+   cin>>radius;
+   int area = 3.14 * radius * radius;
+   cout<<"Area of a circle is : " << " " << area << endl;
+   return 0;
+}
+
+
+enter a radius
+10
+Area of a circle is :  314
