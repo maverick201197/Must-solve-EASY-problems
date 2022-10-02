@@ -1,0 +1,38 @@
+#include<bits/stdc++.h>
+using namespace std;
+int main()
+{
+    char ch;
+    cout<<"enter a character" <<endl;
+    cin>>ch;
+    if(ch >= 65 && ch <= 90)
+    {
+        cout<<"Uppercase letters" <<endl;
+    }
+    else if(ch >= 97 && ch <= 122)
+    {
+        cout<<"Lowercase letters" <<endl;
+    }
+    else if(ch >= 48 && ch <= 57)
+    {
+        cout<<"Special Digits" <<endl;
+    }
+    else
+    {
+        cout<<"Symbol" <<endl;
+    }
+    return 0;
+}
+
+
+enter a character
+A
+Uppercase letters
+
+enter a character
+a
+Lowercase letters
+
+enter a character
+@
+Symbol
