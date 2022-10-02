@@ -1,0 +1,25 @@
+#include<bits/stdc++.h>
+using namespace std;
+int main()
+{
+    int n, temp, rem, rev = 0;
+    cout<<"enter a number" <<endl;
+    cin>>n;
+    temp = n;
+    while(temp!=0)
+    {
+        rem = temp % 10;
+        rev = rev * 10 + rem;
+        temp = temp / 10;
+    }
+    
+    if(rev == n)
+    cout<<"Pallindrome Number" <<endl;
+    else
+    cout<<"Not a Pallindrome Number" <<endl;
+    return 0;
+}
+
+enter a number
+12121
+Pallindrome Number
