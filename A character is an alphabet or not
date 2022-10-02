@@ -1,0 +1,25 @@
+#include<bits/stdc++.h>
+using namespace std;
+int main()
+{
+    char ch;
+    cout<<"enter a character" <<endl;
+    cin>>ch;
+    if((ch >= 'A' && ch <= 'Z') || (ch >='a' && ch <= 'z'))
+    {
+        cout<<"Alphabets" <<endl;
+    }
+    else
+    {
+        cout<<"not an alphabets" <<endl;
+    }
+    return 0;
+}
+
+enter a character
+a
+Alphabets
+
+enter a character
+13
+not an alphabets
