@@ -1,0 +1,27 @@
+#include<bits/stdc++.h>
+using namespace std;
+int isautomorphic(int n)
+{
+    int square = n * n;
+    while(n>0)
+    {
+        if(n%10!=square%10)
+        return false;
+        n = n/10;
+        square = square/10;
+    }
+    return true;
+    
+}
+int main()
+{
+    int n;
+    cout<<"enter a number" <<endl;
+    cin>>n;
+    isautomorphic(n)? cout<<"Automorphic number" : cout<<"Not an Automorphic number";
+    return 0;
+}
+
+enter a number
+7
+Not an Automorphic number
