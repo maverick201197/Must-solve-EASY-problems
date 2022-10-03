@@ -1,0 +1,33 @@
+#include<bits/stdc++.h>
+using namespace std;
+int main()
+{
+    int n,fact, i, rem;
+    cout<<"enter a number" <<endl;
+    cin>>n;
+    int sum = 0;
+    int temp = n;
+    while(n)
+    {
+        int i = 1;
+        int fact = 1;
+        rem = n % 10;
+        while(i<=rem)
+        {
+            fact = fact * i;
+            i++;
+        }
+        sum = sum + fact;
+        n = n / 10;
+    }
+     if(sum == temp)
+     cout<<"Strong Number" <<endl;
+     else
+     cout<<"Not a Strong Number" << endl;
+     return 0;
+    
+}
+
+enter a number
+145
+Strong Number
