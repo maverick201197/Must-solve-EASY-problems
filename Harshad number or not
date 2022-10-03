@@ -1,0 +1,26 @@
+#include<bits/stdc++.h>
+using namespace std;
+int main()
+{
+    int n, temp, rem, sum=0;
+    cout<<"enter a number" <<endl;
+    cin>>n;
+    temp = n;
+    int res = 0;
+    while(temp!=0)
+    {
+        rem = temp % 10;
+        sum = sum + rem;
+        temp = temp / 10;
+    }
+     res = n % sum;
+    if(res == 0)
+    cout<<"Harshad Number" <<endl;
+    else
+    cout<<"Not a harshad number" <<endl;
+    return 0;
+}
+
+enter a number
+1729
+Harshad Number
